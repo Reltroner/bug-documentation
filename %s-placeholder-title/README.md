@@ -1,4 +1,3 @@
-```
 # `%s` Placeholder in Next.js Metadata Title
 
 In Next.js App Router, dynamic title templates can be defined using the `%s` placeholder in the `metadata` object. This is especially useful for maintaining consistent branding across all pages of your application.
