@@ -68,6 +68,5 @@ Each layout file (e.g., `app/blog/layout.jsx`) can override or extend the metada
 ---
 
 Let Astralis light the unknown.
-```
 
 ---
