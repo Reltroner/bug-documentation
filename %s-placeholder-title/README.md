@@ -1,4 +1,4 @@
-```markdown
+```
 # `%s` Placeholder in Next.js Metadata Title
 
 In Next.js App Router, dynamic title templates can be defined using the `%s` placeholder in the `metadata` object. This is especially useful for maintaining consistent branding across all pages of your application.
@@ -7,7 +7,7 @@ In Next.js App Router, dynamic title templates can be defined using the `%s` pla
 
 You can define a global `title` template inside your `app/layout.jsx` (or `layout.tsx`) like this:
 
-```js
+```
 export const metadata = {
   title: {
     default: "Reltroner Studio",
