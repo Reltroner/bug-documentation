@@ -62,5 +62,5 @@ if (req.user._id.toString() === req.params.id.toString()) {
 📝 Authored by: [Reltroner](https://github.com/Reltroner)
 
 ---
-Let Astralis ligth the unknown
+Let Astralis light the unknown
 ---
