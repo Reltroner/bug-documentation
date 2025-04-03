@@ -50,7 +50,8 @@ Then restart your server:
 ```bash
 nodemon app.js
 ```
-
+---
+#Let's Astralis Light the Unknown✨
 ### 🧠 Tips
 - Always confirm your controller methods exist before calling them in routes
 - Use console logs or IDE autocomplete to ensure no `undefined` is being referenced
