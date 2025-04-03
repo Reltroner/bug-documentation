@@ -51,10 +51,11 @@ Then restart your server:
 nodemon app.js
 ```
 ---
-#Let's Astralis Light the Unknown✨
 ### 🧠 Tips
 - Always confirm your controller methods exist before calling them in routes
 - Use console logs or IDE autocomplete to ensure no `undefined` is being referenced
 
 ---
 This documentation helps future developers avoid the same mistake when modifying dashboard logic.
+---
+### Let's Astralis Light the Unknown
