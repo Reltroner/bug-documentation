@@ -58,4 +58,4 @@ nodemon app.js
 ---
 This documentation helps future developers avoid the same mistake when modifying dashboard logic.
 ---
-### Let's Astralis Light the Unknown
+### Let Astralis light the unknown ✨
