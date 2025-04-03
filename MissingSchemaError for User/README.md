@@ -44,3 +44,4 @@ Where `Attendance` references `Employee`, and `Employee` references `User`. All 
 ✅ Fix this once, and future seeding will work smoothly!
 
 ###Let Astralis Light the Unknown ✨
+---
