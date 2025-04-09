@@ -1,6 +1,3 @@
-### 📁 `README.md` – Command Palette Scroll Bug & Fix
-
-```markdown
 # 🧭 Command Palette Overflow & Scroll Bug (Fixed)
 
 This documentation describes a UI bug found in the `CommandPalette.jsx` component of the Reltroner Studio project, specifically when rendering a long list of navigation items inside a floating command dialog.
@@ -17,7 +14,7 @@ When using `cmdk`'s `<CommandDialog>`, the command palette appears centered but 
 - Difficult to navigate many items on smaller viewports.
 
 > Screenshot:  
-> ![Final Scroll Working](./final-commandpalette-scroll.png)
+> ![Bug Example](./path-to-screenshot.png)
 
 ---
 
