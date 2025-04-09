@@ -12,7 +12,7 @@ This happens because by default, `CommandDialog` (built on `@radix-ui/react-dial
 
 ### Screenshot
 
-![Wrong Position](./screenshots/command-bottom.png)
+![Wrong Position](./command-bottom.png)
 
 ---
 
