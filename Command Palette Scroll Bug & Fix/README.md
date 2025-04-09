@@ -17,7 +17,7 @@ When using `cmdk`'s `<CommandDialog>`, the command palette appears centered but 
 - Difficult to navigate many items on smaller viewports.
 
 > Screenshot:  
-> ![Bug Example](path-to-screenshot.png)
+> ![Bug Example](/path-to-screenshot.png)
 
 ---
 
