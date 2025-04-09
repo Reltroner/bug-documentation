@@ -65,7 +65,7 @@ plugins: [
 - Smooth and accessible UX for desktop power-users.
 
 > Final View:  
-> ![Final Scroll Working](./final-commandpalette-scroll.png)
+> ![Final Scroll Working](./final-result.png)
 
 ---
 
