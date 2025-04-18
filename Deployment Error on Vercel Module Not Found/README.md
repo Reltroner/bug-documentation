@@ -52,7 +52,7 @@ The site was deployed to:
 https://www.reltroner.com/
 ```
 
-![Deployment Successful](https://vercel.com/api/www/images/success-deploy.svg)
+![Deployment Successful](./success-deploy.png)
 
 ---
 
