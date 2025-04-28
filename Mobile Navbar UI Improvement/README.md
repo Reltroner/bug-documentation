@@ -10,7 +10,7 @@ During testing on small screen devices (e.g., iPhone 4, 320px width), the **mobi
 - This created **bad UX** (User Experience), especially on smaller mobile screens.
 
 > Screenshot:  
-> ![Bug Example](./mobile-nav-list-screenshot.png)
+> ![Bug Example](./mobile-nav-list-screenshot.webp)
 
 ## Root Cause
 
