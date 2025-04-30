@@ -1,3 +1,6 @@
+![Git](https://img.shields.io/badge/Git-Case%20Sensitive-critical?style=flat-square&logo=git)
+![Platform](https://img.shields.io/badge/Platform-cross--OS-blue?style=flat-square)
+
 # 🧠 Handling Folder Rename Issues in Git (Case Sensitivity)
 
 In cross-platform development, especially when switching between Windows, macOS, and Linux, developers often face an issue where renaming a folder by only changing the capitalization (e.g., `Items` → `items`) is **not detected by Git**.
@@ -69,7 +72,7 @@ Git tracks filenames and their cases internally. But on **case-insensitive** sys
 
 ---
 
-## 📝 Summary
+## 🧾 Case Sensitivity Summary
 
 | Issue                     | Cause                                | Solution                       |
 |---------------------------|--------------------------------------|--------------------------------|
@@ -78,7 +81,4 @@ Git tracks filenames and their cases internally. But on **case-insensitive** sys
 
 ---
 
-## ✨ Author
-**Reltroner Studio** – Worldbuilding-driven development for Asthortera & beyond 🌌
-
-> Let Astralis light the unknown.
+📄 Read the full war story: [Git Case Rename War](./git-case-rename-war.md)
