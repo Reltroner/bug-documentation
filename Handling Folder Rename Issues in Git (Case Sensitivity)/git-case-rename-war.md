@@ -100,3 +100,9 @@ Then redo the rename. This tells Git to be case-sensitive even on Windows/macOS.
 ---
 
 > Let Astralis light the unknown — even in your Git history.
+
+---
+
+📄 Read the Handling Folder Rename Issues in Git (Case Sensitivity)
+: [Handling Folder Rename Issues in Git (Case Sensitivity)
+](./git-case-rename-war.md)
