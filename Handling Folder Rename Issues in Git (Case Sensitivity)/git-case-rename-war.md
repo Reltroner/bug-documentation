@@ -38,7 +38,7 @@ app/Item → app/item
 
 ---
 
-## 🛠️ The Fix: The Two-Step Rename Ritual
+## 🛠️ Option 1: The Two-Step Rename Ritual (Common Solution)
 
 To properly rename a folder by changing only its capitalization, use this ritual:
 
@@ -57,6 +57,23 @@ git push
 ```
 
 Now Git sees **real changes**, your repo is clean, and the server won't cry anymore.
+
+---
+
+## 🛠️ Option 2: Manual Rebuild After Delete (What Actually Worked)
+
+In this particular case, I solved it by:
+
+1. **Manually deleting** the problematic folder `Item/`
+2. **Rebuilding** a fresh folder named `Item/` with:
+   - `page.jsx`
+   - `layout.jsx`
+   - `ItemsClient.jsx`
+   - `[slug]/page.jsx` and `[slug]/head.jsx`
+3. Git now treated it as a fresh structure.
+4. Commit + push = problem solved.
+
+> Not elegant. But effective. The nuclear option worked.
 
 ---
 
