@@ -10,9 +10,20 @@ This project initially used Laravel Breeze with the **Inertia + React** stack an
 ### 1. Manually remove Inertia + React stack
 ```bash
 rm -rf resources/js
-rm -rf resources/views
 rm resources/views/app.blade.php
 ````
+
+> ⚠️ **WARNING:**
+> Before deleting the entire `resources/views` folder, **make sure to back up any custom Blade templates or Inertia components you’ve built**.
+> If unsure, simply rename the folder instead:
+>
+> ```bash
+> mv resources/views resources/views_backup
+> ```
+
+Only delete the folder if you're certain it contains only auto-generated files.
+
+---
 
 ### 2. Create placeholder files to avoid installation failure
 
@@ -27,7 +38,7 @@ Create:
 php artisan breeze:install blade
 ```
 
-> Error will occur because `resources/js/app.js` tries to import a missing `./bootstrap`.
+> An error will occur if `resources/js/app.js` imports a missing `./bootstrap`.
 
 ---
 
