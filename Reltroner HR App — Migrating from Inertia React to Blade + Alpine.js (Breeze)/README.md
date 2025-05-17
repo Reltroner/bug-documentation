@@ -114,6 +114,36 @@ public/build/assets/app-L2ZqPtNd.js   44.37 kB │ gzip: 16.06 kB
 ✓ built in 994ms
 ```
 
+### ✅ `php artisan breeze:install blade` Output:
+
+```bash
+$ php artisan breeze:install blade
+
+   INFO  Installing and building Node dependencies.
+
+up to date, audited 207 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> build
+> vite build
+
+vite v6.3.5 building for production...
+transforming...
+✓ 4 modules transformed.
+rendering chunks...
+computing gzip size...
+public/build/manifest.json             0.27 kB │ gzip:  0.15 kB
+public/build/assets/app-BbaVIuwS.css  28.78 kB │ gzip:  5.65 kB
+public/build/assets/app-L2ZqPtNd.js   44.37 kB │ gzip: 16.06 kB
+✓ built in 994ms
+
+   INFO  Breeze scaffolding installed successfully.
+```
+
 ---
 
 ## 🎉 Breeze Blade + Alpine Successfully Installed
