@@ -2,6 +2,10 @@
 
 ## Description
 
+> Screenshot:
+> ![Bug Example](./highligt-screenshot.webp)
+> ![Bug Example1](./unhighligt-screenshot.webp)
+
 In this project using Laravel + Blade + Mazer UI, sidebar items like **Tasks**, **Employees**, etc., were not being highlighted when visiting their respective pages.
 
 This was due to the sidebar links using static classes like:
