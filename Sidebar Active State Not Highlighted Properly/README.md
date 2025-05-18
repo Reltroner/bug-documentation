@@ -1,10 +1,10 @@
 # 🐛 Sidebar Active State Not Highlighted Properly
 
-## Description
-
 > Screenshot:
 > ![Bug Example](./highligt-screenshot.webp)
 > ![Bug Example1](./unhighligt-screenshot.webp)
+
+## Description
 
 In this project using Laravel + Blade + Mazer UI, sidebar items like **Tasks**, **Employees**, etc., were not being highlighted when visiting their respective pages.
 
