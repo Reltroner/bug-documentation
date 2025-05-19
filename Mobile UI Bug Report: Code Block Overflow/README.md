@@ -22,7 +22,7 @@ This README documents the issue, its symptoms, reproduction steps, and the appli
 
 ## 📸 Screenshot Example
 
-> (See `screenshots/mobile-codeblock-overflow.png` — not included in this markdown file)
+> ![mobile-codeblock-overflow](./mobile-codeblock-overflow.webp)
 
 The screenshot clearly shows SQL code blocks rendered edge-to-edge on mobile, breaking visual balance and readability.
 
