@@ -37,3 +37,63 @@ Alternatively, you can rename the variable in the Blade file to match what was p
 
 * `resources/views/leave_requests/index.blade.php`
 * `app/Http/Controllers/LeaveRequestController.php`
+
+---
+
+## 🐞 Bug Report: Undefined Variable `$leaveRequest` on Edit Leave Request Page
+
+### 🔍 Description
+
+An `Undefined variable $leaveRequest` error is triggered when accessing the **Edit Leave Request** form via the `leave_requests.index` view.
+
+**Error location:**
+`resources/views/leave_requests/edit.blade.php`
+
+**Error message:**
+
+```
+Undefined variable $leaveRequest
+```
+
+### 📍 Root Cause
+
+The controller method `LeaveRequestController::edit()` passes the variable using snake\_case:
+
+```php
+return view('leave_requests.edit', compact('leave_request'));
+```
+
+However, in the Blade template, the variable is referenced in camelCase:
+
+```blade
+<!-- This will throw undefined variable error -->
+{{ $leaveRequest->id }}
+```
+
+### ✅ Resolution
+
+You have two options:
+
+#### Option A: Update the controller
+
+Use camelCase to match Blade usage:
+
+```php
+return view('leave_requests.edit', ['leaveRequest' => $leave_request, 'employees' => $employees]);
+```
+
+#### Option B: Update the Blade view
+
+Use the variable as it is (`$leave_request`) throughout:
+
+```blade
+<form action="{{ route('leave_requests.update', $leave_request->id) }}" method="POST">
+...
+value="{{ old('start_date', $leave_request->start_date->format('Y-m-d')) }}"
+```
+
+### 🛠 Recommended Fix
+
+For consistency with Laravel model route-binding conventions, prefer **Option B** and stick with snake\_case (`$leave_request`) when using implicit model binding.
+
+---
