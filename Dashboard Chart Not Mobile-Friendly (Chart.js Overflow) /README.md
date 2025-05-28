@@ -7,7 +7,7 @@ This causes part of the chart and its legend to be hidden or clipped, impacting 
 
 ## Screenshot
 
-![Dashboard Chart Overflow](./path-to-your-screenshot.png)
+![Dashboard Chart Overflow](./chart-line-bug.png)
 
 ## Root Cause
 
