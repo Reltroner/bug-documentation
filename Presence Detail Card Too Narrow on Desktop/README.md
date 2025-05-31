@@ -7,7 +7,7 @@ While this looks comfortable on mobile, it makes the card appear awkwardly thin 
 
 **Screenshot (before fix):**
 
-![Presence Detail Card Narrow - Desktop](./screenshots/presence-detail-narrow-desktop.png)
+![Presence Detail Card Narrow - Desktop](./presence-detail-narrow-desktop.png)
 
 ### Root Cause
 
@@ -52,7 +52,7 @@ While this looks comfortable on mobile, it makes the card appear awkwardly thin 
 
 **Screenshot (after fix):**
 
-![Presence Detail Card Wide - Desktop](./screenshots/presence-detail-wide-desktop.png)
+![Presence Detail Card Wide - Desktop](./presence-detail-wide-desktop.png)
 
 ### Impact
 
