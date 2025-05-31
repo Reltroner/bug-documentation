@@ -60,7 +60,7 @@ Add this CSS to your main stylesheet or directly in your Blade with `<style>...<
 
 **Screenshot (after fix):**
 
-![Cancel Button Centered](./screenshots/cancel-button-centered.png)
+![Cancel Button Centered](./cancel-button-centered.png)
 
 ---
 
