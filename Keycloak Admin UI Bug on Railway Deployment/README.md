@@ -6,7 +6,7 @@ After deploying **Keycloak 24.0.1** using a Docker container to Railway and acce
 
 ```
 
-[https://sso.reltroner.com/admin/master/console/](https://sso.reltroner.com/admin/master/console/)
+https://sso.reltroner.com/admin/master/console/
 
 ```
 
@@ -18,7 +18,7 @@ While the backend is successfully running and reachable via:
 
 ```
 
-[https://sso.reltroner.com/realms/master](https://sso.reltroner.com/realms/master)
+https://sso.reltroner.com/realms/master
 
 ````
 
