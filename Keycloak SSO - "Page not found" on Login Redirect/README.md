@@ -22,7 +22,7 @@ Open your Keycloak Admin Panel:
 
 ```
 
-[https://sso.reltroner.com/admin/master/console/#/realms/reltroner/clients/app-reltroner/settings](https://sso.reltroner.com/admin/master/console/#/realms/reltroner/clients/app-reltroner/settings)
+https://sso.reltroner.com/admin/master/console/#/realms/reltroner/clients/app-reltroner/settings
 
 ```
 
@@ -30,7 +30,7 @@ In the **"Valid Redirect URIs"** section, make sure you add:
 
 ```
 
-[https://app.reltroner.com/login/keycloak/callback](https://app.reltroner.com/login/keycloak/callback)
+https://app.reltroner.com/login/keycloak/callback
 
 ```
 
