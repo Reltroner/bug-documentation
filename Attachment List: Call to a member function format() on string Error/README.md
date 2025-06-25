@@ -12,7 +12,7 @@ Call to a member function format() on string
 
 **Stack trace points to this line:**
 ```blade
-<td>{{ $attachment->uploaded_at ? $attachment->uploaded_at->format('Y-m-d H:i') : '-' }}</td>
+<td>{{ $attachment->uploaded_at ? $attachment->uploaded_at->format('Y-m-d H:i:s') : '-' }}</td>
 ````
 
 **Root Cause:**
@@ -70,7 +70,7 @@ If you cannot modify the model immediately, you may wrap the value with `\Carbon
 
 ```blade
 <td>
-    {{ $attachment->uploaded_at ? \Carbon\Carbon::parse($attachment->uploaded_at)->format('Y-m-d H:i') : '-' }}
+    {{ $attachment->uploaded_at ? \Carbon\Carbon::parse($attachment->uploaded_at)->format('Y-m-d H:i:s') : '-' }}
 </td>
 ```
 
