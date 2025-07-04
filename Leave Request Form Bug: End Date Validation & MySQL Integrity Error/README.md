@@ -48,18 +48,18 @@ Column 'end\_date' cannot be null
 
 **Before (missing validation):**
 
-```php
-// No validation for 'end_date'
-```
+   ```php
+   // No validation for 'end_date'
+   ```
 
 **After (fixed):**
 
-```php
-$request->validate([
-    // ...
-    'end_date' => 'required|date|after_or_equal:start_date',
-]);
-```
+   ```php
+   $request->validate([
+       // ...
+       'end_date' => 'required|date|after_or_equal:start_date',
+   ]);
+   ```
 
 ## 🚦 Result
 
