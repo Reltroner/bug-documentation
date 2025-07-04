@@ -34,7 +34,7 @@ Column 'end\_date' cannot be null
        'end_date'    => 'required|date|after_or_equal:start_date',
        // ... other fields
    ]);
-````
+   ````
 
 2. **UI Feedback:**
 
