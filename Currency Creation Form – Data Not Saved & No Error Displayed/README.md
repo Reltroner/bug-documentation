@@ -1,4 +1,4 @@
-## Currency Creation Form – Data Not Saved & No Error Displayed
+# Currency Creation Form – Data Not Saved & No Error Displayed
 
 ### Overview
 
