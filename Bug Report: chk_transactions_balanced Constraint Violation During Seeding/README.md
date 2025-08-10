@@ -82,7 +82,7 @@ Replace the "flip last row" balancing approach with a **two-phase balancing meth
 
 The fixed method ensures header totals are updated **only after** details are balanced.
 
-See [updated `withLines()` implementation](./database/factories/TransactionFactory.php) for details.
+See [updated `withLines()` implementation](https://github.com/Reltroner/finance-reltroner/commit/fca65ed75c2da2296a33bbbab57c44687567854c) for details.
 
 ---
 
