@@ -74,7 +74,7 @@ Reconfigure the domain in cPanel to point directly to Laravel’s `public` folde
    * **Document Root**:
 
      ```
-     /home/ynoqpang/repositories/reltroner-hr-app/public
+     /**home/ynoqpang/repositories/reltroner-hr-app/public**
      ```
    * (Do not use `~/hrm.reltroner.com` or a symlink.)
 3. (Optional) Run **AutoSSL** from **SSL/TLS Status**.
@@ -82,7 +82,7 @@ Reconfigure the domain in cPanel to point directly to Laravel’s `public` folde
 5. Test:
 
    * `https://hrm.reltroner.com`
-   * `https://hrm.reltroner.com/health.html`
+   * `https://hrm.reltroner.com/index.php`
 
 ➡️ With docroot set directly to `public`, the symlink restriction no longer applies.
 The **403 error should be resolved.**
