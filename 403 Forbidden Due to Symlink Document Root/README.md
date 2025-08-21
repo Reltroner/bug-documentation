@@ -74,7 +74,7 @@ Reconfigure the domain in cPanel to point directly to Laravel’s `public` folde
    * **Document Root**:
 
      ```
-     /**home/ynoqpang/repositories/reltroner-hr-app/public**
+     /home/ynoqpang/repositories/reltroner-hr-app/public
      ```
    * (Do not use `~/hrm.reltroner.com` or a symlink.)
 3. (Optional) Run **AutoSSL** from **SSL/TLS Status**.
