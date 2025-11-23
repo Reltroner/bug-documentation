@@ -8,6 +8,8 @@ This document records the investigation, diagnosis, and final fixes for the logi
 
 **Problem:** On the login page the brand block (logo, title, subtitle) is visually cramped against the top of the viewport. Attempts to add `mt-10` / `pt-10` on the brand block did not fix the perceived spacing because the `main` container and flex layout govern vertical spacing. Other contributing factors included missing/stale frontend assets during development and Blade artifacts in the view.
 
+> ![Bug Example](./bug.webp)
+
 **Environment**
 
 * Laravel 12 app (Blade + Tailwind + Vite)
@@ -278,6 +280,12 @@ Below is the final Blade layout that resolved the spacing bug and also keeps flo
 * [ ] Floating top-right controls do not overlap the brand block
 * [ ] Logo and text scale correctly on small screens
 * [ ] No placeholder artifacts displayed in the page (search for `:contentReference`)
+
+---
+
+## Result
+
+> ![Result](./result.webp)
 
 ---
 
