@@ -11,6 +11,9 @@ This document explains **why the mobile UI feels disconnected from the desktop U
 
 Desktop looks acceptable, but mobile feels like a completely different page.
 
+> Screenshot:  
+> ![Bug Example](./alhamrabug.webp)
+
 ---
 
 ## 🔍 Root Causes
@@ -215,6 +218,9 @@ After:
 * ❌ No redesign required
 * ✅ Breakpoint discipline is the key
 * ✅ Desktop & mobile are **two UX modes, one codebase**
+
+> Screenshot:  
+> ![Bug Example](./alhamradebug.webp)
 
 ---
 
