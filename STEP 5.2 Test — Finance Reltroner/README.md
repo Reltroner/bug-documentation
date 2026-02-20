@@ -18,7 +18,7 @@
 | Phase Status   | 🧊 **FROZEN**                    |
 | Test Type      | Automated (Composer / PHPUnit)   |
 | Test Scope     | Unit + Feature                   |
-| Environment    | Local (Laragon, PHP 8.2)         |
+| Environment    | Local (SQLite, PHP 8.2)         |
 | Execution Time | 0.46s                            |
 | Test Date      | 2026-02-02                       |
 
