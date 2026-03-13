@@ -2,7 +2,7 @@
 
 ## Personal Owner Account + Organization Copilot Account
 
-**Author:** Raiden / Rei Reltroner
+**Author:** Rei Reltroner
 **Environment:** Windows Development Workstation
 
 ```
